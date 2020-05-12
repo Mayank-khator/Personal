@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Mayank Khator</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rakkas&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@300&display=swap" rel="stylesheet">
+
+  <!-- CSS stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/1126030d6a.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+  <section id="title">
+    <div class="container-fluid">
+      <nav class="navbar navbar-custom navbar-expand-lg navbar-dark">
+        <script>
+          $(document).ready(function() {
+            var myDate = new Date();
+            var hrs = myDate.getHours();
+            var greet;
+            if (hrs < 12)
+              greet = 'Good Morning';
+            else if (hrs >= 12 && hrs <= 17)
+              greet = 'Good Afternoon';
+            else if (hrs >= 17 && hrs <= 24)
+              greet = 'Good Evening';
+            document.getElementById('lblGreetings').innerHTML =
+              greet + '!'
+          });
+        </script>
+        <a class="navbar-brand" id="lblGreetings"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills-set">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#achievements">Achievements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#academics">Academics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#hobbies-interests">Hobbies & Interests</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacts">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="topCloud" src="images/cloud.png" alt="Cloud-Image">
+          <img class="my-pic" src="images/myPic.png" alt="My Profile Picture" height="250" width="250">
+          <h1>I'm Mayank</h1>
+          <div class="col-lg-8">
+            <h5 class="PhoneNo"><i class="icon fas fa-blender-phone fa-3x"></i> - +91-9090025151</h5>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <h2 class="Profession"><span>A Software Professional.</span></h2>
+          <p class="introduction">I am Enovia(PLM) Developer. I ❤️ designing. I am fond of web development & writing. I aspire to Obtain a creative and challenging position in an organization that give an opportunity for self improvement and leadership.</p>
+          <img class="bottomCloud" src="images/cloud.png" alt="Cloud-Image">
+          <img class="mountain-img" src="images/mountain.png" alt="Mountain-Image">
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <!-- Experience -->
+
+  <section id="experience">
+
+    <h2 class="padding-extra">Experience.</h2>
+    <div id="testimonial-carousel" class="carousel slide carousel-color" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h4 class="testimonial-text">I.T. Analyst at <em>TCS, Bangalore</em></h4>
+          <p><b>Senior Developer</b> - <em>Jan'2020-May'2020</em></p>
+          <p class="carousel-text"><em>Platform: <b>EnoviaV62016x</b></em></p>
+          <div class="experience-details">
+            <ul class="ul-text">
+              <li class="li-text">Customizing application based on requiremnts(including bug fixing and enhancements)</li>
+              <li class="li-text">Interacting with business on requirement gathering</li>
+              <li class="li-text">Served as critical member in Upgrade Project(2019x) for different clients.</li>
+              <li class="li-text">Involved in the deriving process for client(Support as well as Development)</li>
+              <li class="li-text">Served as Onsite coordinator for Client side</li>
+              <li class="li-text">Lead and SME in various complex topics in subject to application.</li>
+              <li class="li-text">Worked as an Solution Designer for minor projects.</li>
+              <li class="li-text">SPOC of TCS(at Project Level), for Digital Initiative Implementation at client side</li>
+              <li class="li-text">Also lead team in automated regression testing (Selenium)</li>
+              <li class="li-text">Handling KPIs, Reporting, Auditing(External & Internal)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h4 class="testimonial-text">System Engineer at <em>TCS, Bangalore</em></h4>
+          <p><b>Developer</b> - <em>Nov'2018-Dec'2019</em></p>
+          <p class="carousel-text"><em>Platform: <b>EnoviaV62016x</b></em></p>
+          <div class="experience-details">
+            <ul class="ul-text">
+              <li class="li-text">Bug fixing and Enhancement with minor Customizations</li>
+              <li class="li-text">Major and Minor change handling.</li>
+              <li class="li-text">Involved in the deriving process for Operational Process for Client</li>
+              <li class="li-text">Handled Documentation Side independently for having sound functional knowledge.</li>
+              <li class="li-text">Involved in providing solutions to clients in both functional and technical grounds.</li>
+              <li class="li-text">Key member in writing TDS and FRS for projects.</li>
+              <li class="li-text">Providing knowledge transfer to Junior as well as Experienced resources from time to time</li>
+              <li class="li-text">Critical Member to be involved in ITAT as well as UAT</li>
+            </ul>
+          </div>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h4 class="testimonial-text">Assistant System Engineer at <em>TCS, Bangalore</em></h4>
+          <p><b>Senior Support Executive</b> - <em>Jan'2017-Oct'2018</em></p>
+          <p class="carousel-text"><em>Platform: <b>EnoviaV62013x</b></em></p>
+          <div class="experience-details">
+            <ul class="ul-text">
+              <li class="li-text">Played key role in Application Management and Operation.</li>
+              <li class="li-text">Owned and delivered 'Year End' project independently with 100 percent client satisfaction.</li>
+              <li class="li-text">Responsible for Functional and Regression Test Analysis of Upgrade Project to Enovia V6R2013.</li>
+              <li class="li-text">Worked with Business closely and handled major Incidents & Service Requests.</li>
+              <li class="li-text">Served as critical resource of Operation for Agile Enovia PLM bridge project from operations side</li>
+              <li class="li-text">Involved with testing team for writing test cases for Enovia-Agile Projects.</li>
+              <li class="li-text">Key member on solving bridge (Agile PLM to Enovia PLM) related issues</li>
+              <li class="li-text">Served as Lead(acting) for a team of 10 members.</li>
+              <li class="li-text">Worked on minor CRs and Problem Tickets.</li>
+              <li class="li-text">Served Critical member in handling Exalead and other Application related issues.</li>
+              <li class="li-text">Involved in writing TCL/MQL scripts based on user requirement and process improvement.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h4 class="testimonial-text">Assistant System Engineer - Trainee at <em>TCS, Chennai</em></h4>
+          <p><b>Programmer</b> - <em>Nov'2016-Dec'2016</em></p>
+          <p class="carousel-text"><em>Technologies: <b>Unix,CPP,Oracle</b></em></p>
+          <div class="experience-details">
+            <ul class="ul-text">
+              <li class="li-text">Served as a key programmer in multiple training level projects.</li>
+              <li class="li-text">Well recognised with excellent communication and technical skills in the entire batch.</li>
+              <li class="li-text">Held third highest score in entire batch.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span><i class="fa fa-angle-left fa-2x carousel-button" aria-hidden="true"></i></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span><i class="fa fa-angle-right fa-2x carousel-button" aria-hidden="true"></i></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+  <hr>
+  <!-- Skills -->
+  <section id="skills-set">
+
+    <div class="container-fluid">
+      <h2 class="padding-extra">Skills</h2>
+
+      <p class="skills-text">Enovia</p>
+      <div class="container">
+        <div class="skills enovia">75%</div>
+      </div>
+
+      <p class="skills-text">TCL/MQL</p>
+      <div class="container">
+        <div class="skills tcl-mql">80%</div>
+      </div>
+
+      <p class="skills-text">Java/JPO/JSP</p>
+      <div class="container">
+        <div class="skills java-jpo-jsp">80%</div>
+      </div>
+
+      <p class="skills-text">HTML/CSS/BootStrap/JavaScript</p>
+      <div class="container">
+        <div class="skills frontend">70%</div>
+      </div>
+
+      <p class="skills-text">C/C++</p>
+      <div class="container">
+        <div class="skills c-cpp">60%</div>
+      </div>
+
+      <p class="skills-text">MS Office</p>
+      <div class="container">
+        <div class="skills office">80%</div>
+      </div>
+
+      <p class="skills-text">Other Development Tools</p>
+      <div class="container">
+        <div class="skills odt">70%</div>
+      </div>
+
+      <p class="skills-text">Interpersonal Skills</p>
+      <div class="container">
+        <div class="skills intper">85%</div>
+      </div>
+
+    </div>
+  </section>
+  <hr>
+  <!-- Achievements -->
+  <section id="achievements">
+
+    <h2 class="padding-extra">Achievements.</h2>
+    <div class="row">
+      <div class="col-lg-6 achievement-icon">
+        <i class="fas fa-trophy fa-10x icon-color"></i>
+      </div>
+      <div class="col-lg-6">
+        <ul>
+          <li class="li-text">Awarded for <em>Best Individual Contribution</em> for TCS-NXP Relationship</li>
+          <li class="li-text">Got <em>Best in Solutioning</em> award from Client during Onsite tenure for providing efficient solutions</li>
+          <li class="li-text">Awarded for providing <em>Best in Class Operations</em></li>
+          <!-- <li class="li-text">Served Onsite period and got TCS a project of “Selenium” after convincing client during that period</li> -->
+          <li class="li-text">Served Onsite period with Senior Developer role</li>
+          <li class="li-text">Got eligible for early promotion and consistently got highest ratings/bands in team</li>
+          <li class="li-text">Awarded with <em>Excellence in Delivery</em> from client for excellent deliverable in time</li>
+          <li class="li-text">Recognized for <em>RIO Champion</em> twice</li>
+          <li class="li-text">Recognized for <em>RCA Champion</em></li>
+          <li class="li-text">Awarded with <em>Excellent Contribution</em> from CFO.</li>
+          <li class="li-text">Awarded with <em>Star of the Month</em> for six times</li>
+          <li class="li-text">Identified as SME for various portfolios in Enovia</li>
+          <li class="li-text">Driven Business4.0 at account level from PLM side</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <!-- Academics Section -->
+
+  <section id="academics">
+
+    <h2 class="padding-extra">Academics.</h2>
+
+    <div class="row">
+      <div class="academics-col col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h4 class="card-heading">Graduation</h4>
+          </div>
+          <div class="card-body">
+            <h5>GITA, Bhubaneswar</h5>
+            <p>University - BPUT</p>
+            <p>Stream - Electrical & Electronics</p>
+            <p>Year of Passing - 2016</p>
+            <p>Aggregate CGPA - 8.2</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="academics-col col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h4 class="card-heading">Intermediate</h4>
+          </div>
+          <div class="card-body">
+            <h5>ODM Public School, Bhubaneswar</h5>
+            <p>Board - CBSE</p>
+            <p>Year of Passing - 2012</p>
+            <p>Aggregate Percentage - 83</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="academics-col col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h4 class="card-heading">Matriculation</h4>
+          </div>
+          <div class="card-body">
+            <h5>Belpahar English Medium School, Jharsuguda</h5>
+            <p>Board - ICSE</p>
+            <p>Year of Passing - 2010</p>
+            <p>Aggregate Percentage - 81</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Hobbies -->
+  <hr>
+  <section id="hobbies-interests">
+    <div class="hobbies">
+
+      <div class="hobbies-div">
+        <h2>My Hobbies & Interests.</h2>
+        <div class="hobbies-row">
+          <img class="hobbies-img1" src="https://media1.giphy.com/media/9LQHvkbIzTSLe/giphy.gif?cid=ecf05e47ae3705e46ae38c5ac496d4ee7cc3daec315068fa&rid=giphy.gif" alt="Designing">
+          <h3>Design & Development</h3>
+          <p>Designing is something where intelligence made visible in real. So i love to design and give it a try !!</p>
+        </div>
+        <div class="hobbies-row">
+          <img class="hobbies-img2" src="https://media1.giphy.com/media/toelXGUsYD6vtCN408/giphy.gif?cid=ecf05e47749ba7d9455b45d38bab0d77ad526c9073d92677&rid=giphy.gif" alt="Travel">
+          <h3>Travelling</h3>
+          <p>I am bit inspired with Kabir from <i>'Yeh Jawani hai Dewani'(Bollywood Movie)</i>. But honestly trips do make you light !!</p>
+        </div>
+        <div class="hobbies-row">
+          <img class="hobbies-img3" src="https://media3.giphy.com/media/11ikeVaUfcXLWM/giphy.gif?cid=ecf05e47208ec9c28b04716ae47ea59b57a342d937439603&rid=giphy.gif" alt="Writing">
+          <h3>Writing</h3>
+          <p>Not a great one but i love writing for social issues. Probably the favourite pass time, if you love to read some then do reach me out !!</p>
+        </div>
+        <div class="hobbies-row">
+          <img class="hobbies-img4" src="https://media.giphy.com/media/3o85g3loeiLcF26OZy/giphy.gif" alt="Cooking">
+          <h3>Cooking</h3>
+          <p>Honestly none of my closed ones or even myself had thought that cooking will be in this list. But yes here i am. Try Khichdi prepared by Chef 'Mayank' !!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+  <section id="contacts">
+
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Let's make the things happen !!</h3>
+      <p class="contact-msg">I am always eager to help to the best of my ability.</p>
+      <a class="btn padding-btn" href="mailto:khatormayank94@email.com">Contact Me</a>
+      <a class="btn padding-btn" href="Mayank_Resume.docx">Resume</a>
+    </div>
+
+    <div class="footer">
+      <a class="footer-link" href="https://www.linkedin.com/in/mayank-khator-974a49123/" target="_blank">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/khatormayank94" target="_blank">Twitter</a>
+      <a class="footer-link" href="https://www.facebook.com/mayank.khator" target="_blank">Facebook</a>
+      <p class="copyright">Copyright © 2020. Designed and Maintained by Mayank Khator</p>
+    </div>
+
+  </section>
+
+</body>
+
+</html>

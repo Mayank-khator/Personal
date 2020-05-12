@@ -1,0 +1,298 @@
+body{
+  margin: 0;
+  text-align: center;
+  background-color: #E4F9F5;
+  font-family: 'BioRhyme', serif;
+  overflow-x: hidden;
+}
+
+@media (max-width: 992px) {
+  body{
+    margin: 0;
+    text-align: center;
+    background-color: #E4F9F5;
+    font-family: 'BioRhyme', serif;
+    overflow-x: scroll;
+  }
+  .mountain-img{
+  width: 50%;
+  }
+  .topCloud{
+    width: 0%;
+  }
+  .achievement-icon{
+      padding-top: 0px;
+  }
+}
+
+h1{
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+}
+
+h2{
+  font-size: 2.5em;
+  color: #66BFBF;
+  font-family: 'Rakkas', cursive;
+  font-weight: normal;
+  /* padding-bottom: 10px; */
+}
+
+h3{
+  color: #11999E;
+  font-family: 'Rakkas', cursive;
+}
+
+p{
+    line-height: 2;
+}
+
+a{
+  font-family: 'BioRhyme', serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+hr{
+    border: dotted;
+    border-bottom: none;
+    border-color: lightblue;
+    border-width: 5px;
+    width: 5%;
+    margin: 100px auto;
+}
+
+/* Navigation Bar */
+.navbar{
+background-color: #66BFBF;
+padding: 0px;
+
+}
+
+.navbar-brand{
+  font-family: 'BioRhyme';
+  font-size: 2.5rem;
+}
+
+.nav-link{
+  font-size: 15px;
+  font-family: "BioRhyme";
+}
+
+/* .nav-item{
+  padding: 0 10px;
+} */
+
+/* Containers */
+.container-fluid{
+  padding: 0%;
+}
+
+/* title */
+.icon{
+  color: #66BFBF;
+  margin-top: 1rem;
+}
+
+.my-pic{
+  margin: 150px auto 70px auto ;
+    font-family: 'BioRhyme', serif;
+}
+
+.Profession{
+  margin: 150px 50px auto;
+}
+
+.topCloud{
+position: absolute;
+right: 450px;
+top: 50px;
+}
+
+.bottomCloud{
+  position: absolute;
+  right: 600px;
+  top: 450px
+}
+
+.introduction{
+  width: 50%;
+  margin: auto;
+}
+/* Experience section */
+.li-text{
+text-align: left;
+}
+
+.ul-text {
+  display: table;
+  margin: 0 auto;
+}
+
+.carousel-button{
+  color: #66BFBF;
+}
+
+.carousel-text{
+  padding-bottom: 20px;
+}
+
+.padding-extra{
+  margin: 50px auto;
+}
+
+
+/* Skill-set */
+
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 50%; /* half width */
+  background-color: #ddd; /* Grey background */
+  padding: 0;
+
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 1px; /* Add top padding */
+  padding-bottom: 1px; /* Add bottom padding */
+  color: white; /* White text color */
+  /* font-family: 'BioRhyme', serif; */
+}
+
+.skills-text{
+  margin-bottom: 5px;
+}
+
+.enovia {width: 75%; background-color: #E27d60;}
+.java-jpo-jsp {width: 80%; background-color: #85ddcb;}
+.tcl-mql {width: 80%; background-color: #e8a87c;}
+.frontend {width: 70%; background-color: #99738e;}
+.c-cpp {width: 60%; background-color: #c38d9e;}
+.office {width: 80%; background-color: #41b3a3;}
+.odt {width: 70%; background-color: #659dbd;}
+.intper {width: 85%; background-color: #5cdb95;}
+
+/* Academics */
+#academics{
+  padding: 0 5%;
+}
+
+.academics-col{
+  padding: 3% 2%;
+}
+
+.card-header{
+font-family: "BioRhyme";
+font-weight: 200;
+background-color: #66BFBF;
+}
+
+.card-body{
+background-color: #E4F9F5;
+}
+
+/* Achievement */
+
+.achievement-icon{
+    padding-top: 100px;
+}
+
+.icon-color{
+ color: #66bfbf;
+}
+
+/* Hobbies */
+
+.hobbies{
+margin: 100px 0;
+}
+
+.hobbies-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.hobbies-img1{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.hobbies-img2{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.hobbies-img3{
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.hobbies-img4{
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+/* Contact */
+.contact-msg{
+  width: 30%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'BioRhyme', serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-bottom: 70px;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+
+/* Footer section */
+.footer{
+background-color: #66BFBF;
+padding: 50px 0 20px;
+}
+
+.footer-link{
+  color: #11999E;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
